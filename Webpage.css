@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.toolbar {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0, 5)50%, rgba(0, 0, 0, 0, 5)50%, url(spring-flowers.jpeg));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#btn1 {
+    color: blueviolet;
+    border-radius: 10px;
+    height: 40px;
+    margin: 40px;
+}
+
+
+.menu{
+    width: 100%;
+    float: left;
+    height: 70px;
+    background-color: blanchedalmond;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+    color: bisque;
+}
+
+.icon{
+    text-align: center;
+    color: brown;
+}
+
+
+.image {
+    position: absolute;
+max-width: 100vw;
+}
+.text{
+    position: relative;
+}
+
+
+
+
